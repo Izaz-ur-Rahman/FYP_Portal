@@ -60,6 +60,7 @@ header {
 .login,
 .signup {
     font-size: 22px;
+    color: orange;
     border: none;
     outline: none;
     background-color: transparent;
@@ -71,11 +72,10 @@ header {
     height: 60px;
     width: 150px;
     border-radius: 50px;
-    background-image: linear-gradient(to right,
-            purple,
-            rgb(255, 146, 91));
+    background-color: purple;
     position: absolute;
     top: 20px;
+    color: white;
     left: 100px;
     transition: all 0.5s ease-in-out;
 }
@@ -110,7 +110,7 @@ header {
 }
  
 .login-box {
-    gap: 50px;
+    gap: 30px;
 }
  
 .signup-box {
@@ -138,5 +138,6 @@ header {
             rgb(255, 146, 91));
     font-size: 22px;
     border: none;
+    margin-top: -20px;
     cursor: pointer;
 }
